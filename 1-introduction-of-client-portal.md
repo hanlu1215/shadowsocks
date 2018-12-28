@@ -13,16 +13,18 @@
 ||[Starter](https://portal.shadowsocks.nu/cart.php?a=add&pid=33)|[Premium](https://portal.shadowsocks.nu/cart.php?a=add&pid=36)|[Ultimate](https://portal.shadowsocks.nu/cart.php?a=add&pid=34)|[IPv6 Only](https://portal.shadowsocks.nu/cart.php?a=add&pid=17)|[Enterprise](https://portal.shadowsocks.nu/cart.php?a=add&pid=9)|  
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |价格（年付）|19.95 澳元|79.95 澳元|99.95澳元|19.95澳元|4999.95澳元|
-|价格（月付）|×|×|9.95澳元|×|499.95澳元|
-|服务器数量|10|13|18|9|定制|
+|价格（月付）|×|×|12.95澳元|×|499.95澳元|
+|服务器数量¹|10|13|17|9|定制|
 |普通綫路|〇|〇|〇|〇||
 |高级綫路|×|〇|〇|×||
 |中转綫路|×|×|〇|×||
 |在綫设备数量|1|5|5|1|无限制|
-|流量配额（月）|50GB|50GB|50GB|50GB|无限制|
+|流量配额/月²|50GB|50GB|50GB|50GB|无限制|
 |备注|适合只偶尔<br />使用的用户|适合使用较频繁且有多<br />个设备同时使用的用户|适合对速度需<br />求较高的用户|**需网络支持IPv6**|**中港专綫(10Mbps)<br />可以定制带宽**|
 |订购链接|[立即购买](https://portal.shadowsocks.nu/cart.php?a=add&pid=33)|[立即购买](https://portal.shadowsocks.nu/cart.php?a=add&pid=34)|[立即购买](https://portal.shadowsocks.nu/cart.php?a=add&pid=36)|[立即购买](https://portal.shadowsocks.nu/cart.php?a=add&pid=17)|[立即购买](https://portal.shadowsocks.nu/cart.php?a=add&pid=9)|
 
+注1：我们可能会根据情况调整线路，节点总数量可能会有 1-2 的差别  
+注2：根据使用的节点的统计倍率 (0.01-1.5) 的不同，可以使用的流量范围为 33 - 5000GB
 
 ## 注册与购买
 
