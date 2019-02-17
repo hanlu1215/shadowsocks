@@ -18,7 +18,7 @@
 
 ![下载页面](files/images/win-shadowsockDownload.png)
 
-或是前往 [客户中心](https://portal.shadowsocks.nu/index.php?rp=/download/category/1/Shadowsocks-.html) 下载
+或是前往 [客户中心](https://secure.shadowsocks.nu/index.php?rp=/download/category/1/Shadowsocks-.html) 下载
 
 #### 2. 解压客户端
 
@@ -70,7 +70,7 @@
 ## 配置系统代理模式
 * 右键状态栏![ss icon](files/images/win-icon.png) > "系统代理模式" > "PAC模式"。
 
-* 如果使用 PAC 模式无法访问网站，请点击 [Pac文件下载](https://portal.shadowsocks.nu/dl.php?type=d&id=14) 下载 pac 配置文件，将  `pac.txt` 文件拖放在与 `Shadowsocks.exe` 相同的文件目录下。
+* 如果使用 PAC 模式无法访问网站，请点击 [Pac文件下载](https://secure.shadowsocks.nu/dl.php?type=d&id=14) 下载 pac 配置文件，将  `pac.txt` 文件拖放在与 `Shadowsocks.exe` 相同的文件目录下。
 
 ![pac模式](files/images/win-pac.png)
 
