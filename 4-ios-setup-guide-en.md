@@ -21,7 +21,7 @@ Potatso Lite: Requires iOS 10.0 or later.
 
 ## Shadowsocks Configuration
 
-#### Log in to our website (https://secure.shadowsocks.nu) and do the following:
+#### Log in to our website (https://secure.shadowsocks.ch) and do the following:
 
 * Click Services > My Services > Select your available products & services
 
