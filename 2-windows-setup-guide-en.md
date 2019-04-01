@@ -20,7 +20,7 @@ Click on the latest version of `Shadowsocks-x.x.x.zip` to download (`x.x.x` is t
 
 ![download page](files/images/win-shadowsockDownload.png)
 
-Or download form [Client Portal](https://secure.shadowsocks.ch/index.php?rp=/download/category/1/Shadowsocks-.html)
+Or download form [Client Portal](https://portal.shadowsocks.ch/index.php?rp=/download/category/1/Shadowsocks-.html)
 
 #### 2. Unzip the client
 
@@ -41,7 +41,7 @@ It means that your computer needs to install the .NET Framework.
 Please click [here](https://www.microsoft.com/en-us/download/details.aspx?id=53345) to download the latest version of the .NET Framework.
 
 ## Configure Shadowsocks Account
-#### Log in to our website (https://secure.shadowsocks.ch) and do the following:
+#### Log in to our website (https://portal.shadowsocks.ch) and do the following:
 
 * Click Services > My Services.
 * Select your available products & services> "Configuration file" > "Downloads" > "Download configuration file for Shadowsocks Windows".
@@ -74,7 +74,7 @@ This QR code also applies to other clients.
 
 ![PAC Mode](files/images-en/win-pac.png)
 
-* If you cannot access the website using the PAC mode, click [here](https://secure.shadowsocks.ch/dl.php?type=d&id=14) to download the "pac configuration file" and drag `pac.txt` in the same directory as `Shadowsocks.exe`.
+* If you cannot access the website using the PAC mode, click [here](https://portal.shadowsocks.ch/dl.php?type=d&id=14) to download the "pac configuration file" and drag `pac.txt` in the same directory as `Shadowsocks.exe`.
 
 ![drag pac.txts](files/images-en/win-pact.png)
 
