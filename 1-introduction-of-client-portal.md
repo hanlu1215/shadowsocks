@@ -24,7 +24,7 @@
 |订购链接|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=33)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=34)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=36)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=17)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=9)|
 
 注1：我们可能会根据情况调整线路，节点总数量可能会有 1-2 的差别  
-注2：根据使用的节点的统计倍率 (0.01-1.5) 的不同，可以使用的流量范围为 33 - 5000GB
+注2：根据使用的节点的统计倍率 (0.01-1.5) 的不同，可以使用的流量入门版最多可以为 5000GB ，高级版/旗舰版为 10000GB
 
 ## 注册与购买
 
