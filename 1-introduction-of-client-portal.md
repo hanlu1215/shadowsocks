@@ -14,12 +14,12 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |价格（年付）|19.95 澳元|79.95 澳元|99.95澳元|19.95澳元|4999.95澳元|
 |价格（月付）|×|×|12.95澳元|×|499.95澳元|
-|服务器数量¹|10|13|17|9|定制|
+|服务器数量¹|12|15|20|10|定制|
 |普通綫路|〇|〇|〇|〇||
 |高级綫路|×|〇|〇|×||
 |中转綫路|×|×|〇|×||
 |在綫设备数量|1|5|5|1|无限制|
-|流量配额/月²|50GB|50GB|50GB|50GB|无限制|
+|流量配额/月²|50GB|100GB|100GB|50GB|无限制|
 |备注|适合只偶尔<br />使用的用户|适合使用较频繁且有多<br />个设备同时使用的用户|适合对速度需<br />求较高的用户|**需网络支持IPv6**|**中港专綫(10Mbps)<br />可以定制带宽**|
 |订购链接|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=33)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=34)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=36)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=17)|[立即购买](https://portal.shadowsocks.ch/cart.php?a=add&pid=9)|
 
