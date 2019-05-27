@@ -10,11 +10,7 @@
 
 
 ## 版本区别
-<<<<<<< HEAD
 ||[Starter](https://home.shadowsocks.ch/cart.php?a=add&pid=33)|[Premium](https://home.shadowsocks.ch/cart.php?a=add&pid=36)|[Ultimate](https://home.shadowsocks.ch/cart.php?a=add&pid=34)|[IPv6 Only](https://home.shadowsocks.ch/cart.php?a=add&pid=17)|[Enterprise](https://home.shadowsocks.ch/cart.php?a=add&pid=9)|  
-=======
-||[Starter](https://portal.shadowsocks.ch/cart.php?a=add&pid=33)|[Premium](https://portal.shadowsocks.ch/cart.php?a=add&pid=36)|[Ultimate](https://portal.shadowsocks.ch/cart.php?a=add&pid=34)|[IPv6 Only³](https://portal.shadowsocks.ch/cart.php?a=add&pid=17)|[Enterprise](https://portal.shadowsocks.ch/cart.php?a=add&pid=9)|  
->>>>>>> 0423ec8ca3af835d784abc7dedddd57425fb2393
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |价格（年付）|19.95 澳元|79.95 澳元|99.95澳元|19.95澳元|4999.95澳元|
 |价格（月付）|×|×|12.95澳元|×|499.95澳元|
@@ -34,7 +30,7 @@
 ## 注册与购买
 
 * 如果没有本站的账号，购买过程中将自动创建账户。
-* 打开 [https://shadowsocks.nu/](https://shadowsocks.nu/)并点击 [Order Now](https://home.shadowsocks.ch/link.php?id=5)，即可查看我们的产品列表。  
+* 打开 [https://shadowsocks.ch/](https://shadowsocks.ch/)并点击 [Order Now](https://home.shadowsocks.ch/link.php?id=5)，即可查看我们的产品列表。  
 ![产品列表](files/images/int-product-list.png)
 
 * 选择想要购买的服务后点击对应的 **立即订购** ，进入订单概观, 我们以旗舰版为例，选择付款周期后点击继续加入购物车   
