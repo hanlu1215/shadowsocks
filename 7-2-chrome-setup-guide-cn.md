@@ -32,7 +32,7 @@
 
 |Windows/Linux/macOS(ShadowsocksX)|macOS|
 |:--------:|:--------:|
-|[SwitchOmega + GFWList 自动切换配置文件(1080)](https://home.shadowsocks.ch/dl.php?type=d&id=74)|[SwitchOmega + GFWList 自动切换配置文件(1086)](https://home.shadowsocks.ch/dl.php?type=d&id=75)|
+|[SwitchOmega + GFWList 自动切换配置文件(1080)](https://order.shadowsocks.ch/dl.php?type=d&id=74)|[SwitchOmega + GFWList 自动切换配置文件(1086)](https://order.shadowsocks.ch/dl.php?type=d&id=75)|
 |适用于 Shadowsocks-Windows / Linux / ShadowsocksX(macOS) 等默认端口为 1080 的客户端。|适用于ShadowscoksX-NG， 默认本地端口为 1086|
 
 * 点击 “Proxy SwitchyOmega” > "选项" > "导入/导出" > "从备份文件中恢复" 。
