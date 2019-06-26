@@ -20,7 +20,7 @@
 |中转綫路|×|×|〇|×||
 |在綫设备数量|1|5|5|5|无限制|
 |流量配额/月²|60GB|100GB|100GB|无限制|无限制|
-|备注|适合只偶尔<br />使用的用户|适合使用较频繁且有多<br />个设备同时使用的用户|适合对速度需<br />求较高的用户|**需网络支持IPv6**|**中港专线(10Mbps)<br />可以定制带宽**|
+|备注|适合只偶尔<br />使用的用户|适合使用较频繁且有多<br />个设备同时使用的用户|适合对速度需<br />求较高的用户|**需网络支持IPv6**|**中港专线(5-10Mbps)<br />可以定制带宽**|
 |订购链接|[立即购买](https://order.shadowsocks.ch/cart.php?a=add&pid=33)|[立即购买](https://order.shadowsocks.ch/cart.php?a=add&pid=34)|[立即购买](https://order.shadowsocks.ch/cart.php?a=add&pid=36)|[立即购买](https://order.shadowsocks.ch/cart.php?a=add&pid=17)|[立即购买](https://order.shadowsocks.ch/cart.php?a=add&pid=9)|
 
 注1：我们可能会根据情况调整线路，节点总数量可能会有 1-2 的差别  
