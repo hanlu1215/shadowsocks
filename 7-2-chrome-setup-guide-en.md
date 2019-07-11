@@ -21,10 +21,10 @@
 
 * Download the configuration file for SwitchyOmega via the link below.
 
-* Windows/Linux/macOS (ShadowsocksX): [SwitchOmega + GFWList auto-switch configuration file [1080]](https://order.shadowsocks.ch/dl.php?type=d&id=74)  
+* Windows/Linux/macOS (ShadowsocksX): [SwitchOmega + GFWList auto-switch configuration file [1080]](https://order.shadowsocks.se/dl.php?type=d&id=74)  
 > (For Shadowsocks-Windows / Linux / ShadowsocksX (macOS) and other clients that the default port is 1080 .)
 
-* macOS: [SwitchOmega + GFWList auto-switch configuration file [1086]](https://order.shadowsocks.ch/dl.php?type=d&id=75)  
+* macOS: [SwitchOmega + GFWList auto-switch configuration file [1086]](https://order.shadowsocks.se/dl.php?type=d&id=75)  
 >(Applies to ShadowscoksX-NG, the default port is 1086.)
 
 * Click Proxy "SwitchyOmega" > "Options" > "Import/Export" > "Restore from File".

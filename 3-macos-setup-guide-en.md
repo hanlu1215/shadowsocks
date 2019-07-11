@@ -20,7 +20,7 @@ Click on the latest version of `ShadowsocksX-NG.x.x.x.zip` to download (`x.x.x` 
 
 ![ShadowsocksX-NG Download](files/images/mac-shadowsockDownload.png)
 
-Or download form [Client Portal](https://order.shadowsocks.ch/index.php?rp=/download/category/1/Shadowsocks-.html)
+Or download form [Client Portal](https://order.shadowsocks.se/index.php?rp=/download/category/1/Shadowsocks-.html)
 
 
 ### 2. Install the client
@@ -37,7 +37,7 @@ Double-click "ShadowsocksX-NG" in "Applications" > select "Open".
 
 ## Configure Shadowsocks Account
 
-### Log in to our website (https://order.shadowsocks.ch) and do the following:
+### Log in to our website (https://order.shadowsocks.se) and do the following:
 
 * Click Services > My Services > Select your available products & services
 
