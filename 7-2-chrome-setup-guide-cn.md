@@ -18,8 +18,9 @@
 
 **如果无法访问**
 
-* 访问 `chrome://extensions/`，请使用 Chrome 浏览器复制粘贴输入地址栏并回车访问。
+* <font color="#FF0000">Chrome / Chromium  72 以上版本无法直接拖放安装，手动安装方法请参考：[浏览器设置教程 - Chrome 手动安装 SwitchyOmega](7-3-chrome-install-proxyswitchyomega-offline-cn.md)﻿</font> 。  
 
+* 其他 Chrome 核心浏览器可访问 chrome://extensions/，请使用 Chrome 浏览器复制粘贴输入地址栏并回车访问。
 * 在 [Github](https://github.com/FelisCatus/SwitchyOmega/releases) 下载 SwitchyOmega.crx 文件并拖移入`chrome://extensions/` 。
 
 ![使用Guthub](files/images/bro-chrome-useGithub.png)

@@ -41,7 +41,7 @@ English：
 
 ## 8 Proxifier 设置教程
 
-[Proxifier 设置教程](https://github.com/Shadowsocks-Wiki/shadowsocks/blob/master/8-proxifier-settings.md)
+[Proxifier 设置教程](8-proxifier-settings.md)
 
 ## 9 自定义 DNS 服务器
 简体中文：[设置自定义 DNS 服务器](9-dns-setup-guide-cn.md)
@@ -51,4 +51,3 @@ English：
 本站（[Shadowsocks.com](https://shadowsocks.com/)）由澳洲公司运营，与 [Shadowsocks](https://github.com/shadowsocks) 开发者并无任何关係，并非 Shadowsocks 官网，并且本站教程不对 Shadowsocks 所有客户端和源代码进行负责，本站只销售 Shadowsocks 账号，请勿用于非法用途，并对自己的任何行爲进行负责
 
 所有购买者需要遵循购买者所在国家以及服务器所在国家的法律法规，购买使用前请仔细閲读并遵守我们的 [ToS](https://shadowsocks.com/tos.html)
-

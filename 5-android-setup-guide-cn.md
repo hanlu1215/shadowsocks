@@ -1,37 +1,72 @@
 # Android 下 Shadowsocks 设置方法
 
-## 1、下载客户端
+## 一、下载客户端  
+1. 通过 [客户中心](https://order.shadowsocks.se/index.php?rp=/download/category/1/Shadowsocks-.html) 下载 APK 文件进行安装  
+2. 通过 [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 安装客户端  
+3. 通过 [Github](https://github.com/shadowsocks/shadowsocks-android/releases) 下载 APK 文件进行安装  
 
-您可以在[Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 上下载最新的Shadowsocks 客户端，或通过Github 直接[下载](https://github.com/shadowsocks/shadowsocks-android/releases) .apk 文件进行安装
-
-## 2、获取 Shadowsocks 账号信息
+## 二、获取 Shadowsocks 账号信息
 
 详见 [购买流程以及查看账号信息](1-introduction-of-client-portal.md)
 
-## 3、配置 Shadowsocks 客户端
+## 三、配置 Shadowsocks 客户端
 
-安装完成后，在 Shadowsocks 应用程序界面击左上方 Shadowsocks 即可进入配置节点，按下右上方即可选择开启或关闭 Shadowsocks 连接
+安装完成后，打开 Shadowsocks 应用程序界面，右上角点击 `+` 按钮可以添加节点，底部纸飞机按钮可以链接或断开节点  
+客户端自带一个 `198.199.101.152:8388` 的节点，该节点与我们无关，且使用该节点主界面会出现广告，左右滑动可以删除
 
-![](https://ooo.0o0.ooo/2017/01/04/586d09b4a78a9.png)
+![首页](files/images/android-index.png)   
 
-我们按下左上方 Shadowsocks 进入配置节点界面，在右下方 + (下图橙色位置)号即可选择您需要的配置方式
+![删除节点](files/images/android-del-node.png)   
 
-![](https://ooo.0o0.ooo/2017/01/04/586d09d392dda.png)
+我们按下右上方 `+` 按钮进入配置节点界面，弹出的菜单中可以选择需要的配置方式  
+![添加方式菜单](files/images/android-add-option.png)
 
-### 通过扫描二维码的方式添加
+#### 1. 通过扫描二维码方式添加节点，使用其他设备执行下列操作，用于显示二维码：
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#查看节点二维码) 了解如何使用我们的网站查看二维码。**
 
-按下扫描二维码后到您其他设备打开产品详情界面点击节点红色节点旁的二维码图标
+在添加方式中选择 `扫描二维码`
 
-![](https://ooo.0o0.ooo/2017/01/04/586d0cae41e3b.png)
+添加完成后，点击选中节点，然后点击底部的连接按钮  
+![连接节点](files/images/android-link-start.png)  
 
-进行扫码后即可配置完成
+初次连接时请求 VPN 权限，点击确认允许，否则无法连接。  
+![请求权限](files/images/android-request-vpn-permission.png)
 
-### 手工配置
+注1： 新版本客户端扫描二维码时需要手机已安装 Google Play 服务，否则会提示错误  
+![Google Play 错误](files/images/android-qr-no-gplay.png)
 
-![](https://i.loli.net/2017/11/02/59fa8533ca17f.jpg)
+建议选择其他方式添加节点或是下载 4.2.5 版本客户端： [下载链接](https://github.com/shadowsocks/shadowsocks-android/releases/tag/v4.2.5)  
+该版本客户端填写端口时点击一下即可手动填写
 
-## 4、相关说明
+#### 2. 通过导入 `gui-config.json` 批量添加节点
 
-在您信息配置完成后，我们推荐在功能设置中设置「绕过局域网及中国大陆模式」，该模式可以实现自动代理，在下图中其他选项不要启用
+先下载 `gui-config.json` 文件，然后点击添加菜单中的 `从文件导入......`  
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#下载配置文件) 了解如何使用我们的网站下载 `gui-config.json`文件。**
 
-![](https://ooo.0o0.ooo/2017/01/04/586d0a290c833.png)
+![选择文件](files/images/android-file-select.png)
+
+选择刚才下载 `gui-config.json` 文件后即可自动添加(节点地址做了隐藏处理)  
+点击选择一个节点后，然后点击底部的连接按钮  
+![连接节点2](files/images/android-add-by-file.png)
+
+#### 3. 手动添加节点
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#查看节点信息) 了解如何查看节点信息。**
+
+点击添加菜单中的 `手动设置` 然后按照下图的说明添加节点  
+![手动设置](files/images/android-add-manully.png)  
+
+添加完成后，点击选中节点，然后点击底部的连接按钮  
+![连接节点](files/images/android-link-start.png)  
+
+## 四、其他说明
+- 路由  
+在您信息配置完成后，我们推荐在功能设置中设置「绕过局域网及中国大陆地址」，该模式可以实现自动代理
+全局模式表示所有流量都会经过代理
+
+-  IPv6 路由
+开启后可能导致 Facebook / Insgram APP 无法正常使用
+
+- 分应用 VPN
+开启后可以选择仅代理部分 APP ，不过由于 APP 之间存在互相调用的情况，可能出现部分功能无法正常使用，不推荐启用
+
+![功能说明](files/images/android-features.png)

@@ -13,12 +13,14 @@
 
 #### 1. 下载客户端
 
-访问 Shadowsocks Windows 客户端 [下载页面](https://github.com/shadowsocks/shadowsocks-windows/releases)。
+可以前往 [客户中心](https://order.shadowsocks.se/index.php?rp=/download/category/1/Shadowsocks-.html) 下载客户端  
+
+或是访问 Shadowsocks Windows 客户端 [下载页面](https://github.com/shadowsocks/shadowsocks-windows/releases)。
 下载最新版本的 `Shadowsocks-x.x.x.zip`  (`x.x.x`为版本号) 。
 
 ![下载页面](files/images/win-shadowsockDownload.png)
 
-或是前往 [客户中心](https://order.shadowsocks.se/index.php?rp=/download/category/1/Shadowsocks-.html) 下载
+
 
 #### 2. 解压客户端
 
@@ -38,47 +40,54 @@
 
 #### 在您的计算机上， 执行下列操作：
 
-**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#下載配置文件) 了解如何使用我们的网站下载 `gui-config.json`文件。**
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#下载配置文件) 了解如何使用我们的网站下载 `gui-config.json`文件。**
 
-* 将 `gui-config.json` 拖移到和 `Shadowsocks.exe` 同一个文件目录下。
-
+* 将 `gui-config.json` 与 `Shadowsocks.exe` 放在同一个文件目录下。  
 ![gui-config.json 拖到和 Shadowsocks.exe 同目录](files/images/win-together.png)
 
-* 双击 `Shadowsocks.exe` > 右键状态栏 ![ss icon](files/images/win-icon.png) >  单击 “服务器”  > 即可看到服务器信息已自动填充完成。
-
+* 双击 `Shadowsocks.exe` > 右键状态栏 ![ss icon](files/images/win-icon.png) >  单击 “服务器”  > 即可看到服务器信息已自动填充完成。  
 ![即可看到服务器信息已自动填充完成](files/images/win-autofill.png)
 
 
 
-* 右键状态栏![ss icon](files/images/win-icon.png) > "启用系统代理”。
-
+* 右键状态栏![ss icon](files/images/win-icon.png) > 确认系统代理没有被禁用。  
 ![右键图标](files/images/win-enable.png)
+
+**注：上述截图基于新版本的客户端 [ Shadowsocks-Windows 4.1.5 ] 及更低的版本系统代理选项稍有不同，请拉到页面底部查看对应截图**  
 
 #### 通过二维码方式单独增加节点， 在您的计算机上， 执行下列操作：
 
-**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#查看節點二維碼) 了解如何使用我们的网站查看二维码。**
+**访问 [客户中心使用指南（点我查看）](1-introduction-of-client-portal.md#查看节点二维码) 了解如何使用我们的网站查看二维码。**
 
 此二维码同样适用于其他客户端。
 
 * 右键状态栏![ss icon](files/images/win-icon.png) > "服务器” > "扫描屏幕上的二维码"。
-* 点击 "启用系统代理" 。
-
+* 确认系统代理未选择禁用。  
 ![QR](files/images/win-QR.png)
 
 
 
 ## 配置系统代理模式
-* 右键状态栏![ss icon](files/images/win-icon.png) > "系统代理模式" > "PAC模式"。
+* 右键状态栏![ss icon](files/images/win-icon.png) > "系统代理" > "PAC模式"。  
+![PAC 模式](files/images/win-pac.png)
 
-* 如果使用 PAC 模式无法访问网站，请点击 [Pac文件下载](https://order.shadowsocks.se/dl.php?type=d&id=14) 下载 pac 配置文件，将  `pac.txt` 文件拖放在与 `Shadowsocks.exe` 相同的文件目录下。
+* 初次使用需要点击 `PAC` > `从 GFWLIST 更新本地 PAC `，更新成功后会弹出通知   
+![更新 PAC](files/images/win-update-pac.png)  <br />
+![更新 PAC 成功](files/images/win-update-pac-done.png)
 
-![pac模式](files/images/win-pac.png)
-
-![下载 pac](files/images/win-pact.png)
+* 或是直接从本站下载 PAC 文件，请点击 [Pac文件下载](https://order.shadowsocks.se/dl.php?type=d&id=14) 下载 pac 配置文件，将  `pac.txt` 文件与 `Shadowsocks.exe` 放在相同的文件目录下。  
+![下载 PAC](files/images/win-pact.png)
 
 ## 注意事项
 - **PAC 模式**表示可以实现自动代理， 及本来可以访问的网站不会经过代理，推荐日常使用。
 - **全局模式** 表示计算机内大多数流量都会经过代理， 不推荐日常使用。
+
+## 4.1.5 及更低版本客户端的系统代理选项界面
+1. 首先需要勾选 `启用系统代理` 的选项  
+![PAC 模式](files/images/win-enable-old.png)
+
+2. 随后可以在 `系统代理模式` 中选择使用 `PAC 模式` 还是 `全局模式`  
+![PAC 模式](files/images/win-pac-old.png)
 
 ## 	配置 Firefox 的代理
 
