@@ -15,7 +15,7 @@
 
 ![下载客户端](files/images/mac-shadowsockDownload.png)
 
-或是前往 [客户中心](https://order.shadowsocks.se/index.php?rp=/download/category/1/Shadowsocks-.html) 下载
+或是前往 [客户中心](https://order.shadowsocks.website/index.php?rp=/download/category/1/Shadowsocks-.html) 下载
 
 #### 2. 安装客户端
 

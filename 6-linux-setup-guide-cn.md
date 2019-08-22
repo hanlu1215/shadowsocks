@@ -25,7 +25,7 @@
 
 ## 配置 Shadowsocks 账号
 
-#### 登陆我们的[网站](https://order.shadowsocks.se), 执行下列操作：
+#### 登陆我们的[网站](https://order.shadowsocks.website), 执行下列操作：
 
 * 单击 “服务” > "我的服务" > 选择 "你可用的产品/服务"。
 
