@@ -1,7 +1,19 @@
 # Shadowsocks 设置方法 (Linux)
-
-* [GUI 客户端 Shadowsocks-QT5](#Shadowosocks-QT5)
-* [命令行客户端](#命令行客户端)
+- [Shadowsocks 设置方法 (Linux)](#shadowsocks-设置方法-linux)
+  - [Shadowosocks-QT5](#shadowosocks-qt5)
+  - [安装 Shadowsocks-Qt5](#安装-shadowsocks-qt5)
+      - [1. 下载客户端](#1-下载客户端)
+      - [2. 安装客户端](#2-安装客户端)
+  - [配置 Shadowsocks 账号](#配置-shadowsocks-账号)
+  - [命令行客户端](#命令行客户端)
+    - [1. 安装：](#1-安装)
+    - [2. 创建 Shadowsocks 配置文件](#2-创建-shadowsocks-配置文件)
+    - [3、启动 Shadowsocks](#3启动-shadowsocks)
+    - [4、终端内使用，需安裝 proxychains](#4终端内使用需安裝-proxychains)
+    - [5、其他程序使用](#5其他程序使用)
+    - [6、关闭 Shadowsocks](#6关闭-shadowsocks)
+  - [配置 Firefox 的代理](#配置-firefox-的代理)
+  - [配置 Chrome 的代理](#配置-chrome-的代理)
 
 ## Shadowosocks-QT5
 
@@ -15,29 +27,29 @@
 转到 Shadowsocks [下载页面](https://github.com/shadowsocks/shadowsocks-qt5/releases)。
 点击最新版本的 `Shadowsocks-Qt5-x.x.x-x86_64.AppImage` 进行下载 (`x.x.x`为版本号) 。
 
-![下载客户端](files/images/ubuntu-shadowsockDownload.png)
+![下载客户端](../../assets/images/ubuntu-shadowsockDownload.png)
 
 #### 2. 安装客户端
 
 右键单击 "Shadowsocks-Qt5-x.x.x-x86_64.AppImage"  > 选择 "Properties" > 单击 "Permissions" > 在"Allow excuting file as program" 上打勾。
 
-![下载客户端](files/images/ubuntu-permission.png)
+![下载客户端](../../assets/images/ubuntu-permission.png)
 
 ## 配置 Shadowsocks 账号
 
-#### 登陆我们的[网站](https://portal.shadowsocks.center), 执行下列操作：
+登陆我们的[网站](https://portal.shadowsocks.center), 执行下列操作：
 
 * 单击 “服务” > "我的服务" > 选择 "你可用的产品/服务"。
 
 * 查看你的节点信息。
 
-![查看你的节点信息。](files/images/int-portal-productdetail.png)
+![查看你的节点信息。](../../assets/images/int-portal-productdetail.png)
 
-#### 在您的电脑上， 执行下列操作：
+在您的电脑上， 执行下列操作：
 
 * 双击`Shadowsocks-Qt5-x.x.x-x86_64.AppImage` > "Connection" > "Add" > "Manually"。
 
-![Ubuntu 手动设置](files/images/ubuntu-manually.png)
+![Ubuntu 手动设置](../../assets/images/ubuntu-manually.png)
 
 * 填写 "Server Address" （为你的节点服务器地址）> 填写"Server Port"（为你的服务端口) > 填写 "Password" （为你的登陆密码)。
 
@@ -45,16 +57,16 @@
 
 >勾选 "Auto connect to connect on application start", 将会在开启 Shadowsocks-QT5 时自动连接至该服务器。
 
-![服务器设置](files/images/ubuntu-shadowsocksSetting.png)
+![服务器设置](../../assets/images/ubuntu-shadowsocksSetting.png)
 
-#### 您也可以通过二维码方式单独增加节点，在您的计算机上， 执行下列操作：
+您也可以通过二维码方式单独增加节点，在您的计算机上， 执行下列操作：  
 此二维码同样适用于其他客户端。
 
 * 双击`Shadowsocks-Qt5-x.x.x-x86_64.AppImage` > "Connection" > "Add" > "Scan QR code on Screen" > 当弹出新的 "Profile Editor"后，点击 "OK"。
 
 * 点击 "Connect" 图标 。
 
-![二维码设置](files/images/ubuntu-QR.png)
+![二维码设置](../../assets/images/ubuntu-QR.png)
 
 ## 命令行客户端
 ### 1. 安装：
@@ -143,7 +155,7 @@ sudo proxychains apt-get xxxx
 服务器：127.0.0.1
 端口：1080 #应与Shadowsocks客户端的本地端口对应，默认为1080
 ```
-### 6、 关闭 Shadowsocks
+### 6、关闭 Shadowsocks
 
 在终端内输入
 
@@ -156,10 +168,10 @@ kill 相应的 pid 即可
 ## 	配置 Firefox 的代理
 
 **如需使用 Firefox 浏览器	通过代理浏览网页，请参考下面链接：**  
-[Firefox上设置代理](7-1-firefox-setup-guide-cn.md)
+[Firefox上设置代理](zh_CN/browser/firefox-setup-guide.md)
 
 
 ## 配置 Chrome 的代理
 
 **如需使用 Chrome 浏览器通过代理浏览网页，请参考下面链接：**  
-[Chrome + Proxy SwitchyOmega 设置](7-2-chrome-setup-guide-cn.md)
+[Chrome + Proxy SwitchyOmega 设置](zh_CN/browser/chrome-setup-guide.md)

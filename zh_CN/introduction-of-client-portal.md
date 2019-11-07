@@ -1,12 +1,15 @@
 # 如何使用我们的[网站](https://portal.shadowsocks.center)
 
 ## 快速检索
-* [不同版本的区别](#版本区别)
-* [注册与购买](#注册与购买)
-* [登陆账户](#登陆账户)
-* [查看节点信息](#查看节点信息)
-* [下载配置文件](#下载配置文件)
-* [查看节点二维码](#查看节点二维码)
+- [如何使用我们的网站](#如何使用我们的网站)
+  - [快速检索](#快速检索)
+  - [版本区别](#版本区别)
+  - [注册与购买](#注册与购买)
+  - [登陆账户](#登陆账户)
+  - [查看节点信息](#查看节点信息)
+  - [下载配置文件](#下载配置文件)
+  - [查看节点二维码](#查看节点二维码)
+  - [使用教程请参考：](#使用教程请参考)
 
 
 ## 版本区别
@@ -31,10 +34,10 @@
 
 * 如果没有本站的账号，购买过程中将自动创建账户。
 * 打开 [https://shadowsocks.center/](https://shadowsocks.center/)并点击 [Order Now](https://portal.shadowsocks.center/link.php?id=5)，即可查看我们的产品列表。  
-![产品列表](files/images/int-product-list.png)
+![产品列表](../assets/images/int-product-list.png)
 
 * 选择想要购买的服务后点击对应的 **立即订购** ，进入订单概观, 我们以旗舰版为例，选择付款周期后点击继续加入购物车   
-![订单概览](files/images/int-invoice-preview.png)  
+![订单概览](../assets/images/int-invoice-preview.png)  
 
 * 进入结账界面:
 1. 可以 **确认您的订单信息** ，如果您持有优惠码，也可以在这个页面输入
@@ -42,7 +45,7 @@
 3. 选择您方便的付款方式
 4. **阅读并勾选同意我们的服务条款** 后点击右侧结账按钮前往付款页面
 5. 支付账单后您的服务将会自动开通
-![Checkout](files/images/int-checkout.png)
+![Checkout](../assets/images/int-checkout.png)
 
 **您可以选择希望使用的付款方式，我们当前提供的支付方式有**
 
@@ -55,30 +58,29 @@
 (我们的结算货币为澳元，使用 Wechat/Alipay 可以使用人民币支付对应账单)
 
 ## 登陆账户
-#### 登陆 [客户中心](https://portal.shadowsocks.center),执行下列操作：
+登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：
 
 * 点击右上角 “登入”。  
 * 填写 "Email 地址" 和 “密码” > 点击 “登入”。  
 
-![登陆账户](files/images/int-portal-index.png)  
+![登陆账户](../assets/images/int-portal-index.png)  
 
-![登陆账户](files/images/int-portal-login.png)
+![登陆账户](../assets/images/int-portal-login.png)
 
 ## 查看节点信息
-#### 登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：  
+登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：  
 
 - 单击 “服务” > "我的服务" > 选择 "你可用的产品/服务"。
 - 查看你的节点信息。
 
-![单击 "产品服务" > "我的服务"](files/images/int-portal-myservices.png)  
+![单击 "产品服务" > "我的服务"](../assets/images/int-portal-myservices.png)  
 
-![选择 "你可用的产品/服务"](files/images/int-portal-servicespage.png)  
+![选择 "你可用的产品/服务"](../assets/images/int-portal-servicespage.png)  
 
-![查看你的节点信息](files/images/int-portal-productdetail.png)  
+![查看你的节点信息](../assets/images/int-portal-productdetail.png)  
 
 ## 下载配置文件
-
-#### 登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：
+登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：
 
 - 单击 “服务” > "我的服务" 。
 
@@ -86,38 +88,33 @@
 
 - 即可下载到一个 `gui-config.json` 的文件。
 
-![单击 "服务" > "我的服务"](files/images/int-portal-myservices.png)  
+![单击 "服务" > "我的服务"](../assets/images/int-portal-myservices.png)  
 
-![选择 "你可用的产品/服务"](files/images/int-portal-servicespage.png)  
+![选择 "你可用的产品/服务"](../assets/images/int-portal-servicespage.png)  
 
-!["下载"](files/images/int-portal-dlconfig.png)
+!["下载"](../assets/images/int-portal-dlconfig.png)
 
-!["下载Shadowsocks Windows版本配置文件"](files/images/int-portal-dlconfig2.png)
+!["下载Shadowsocks Windows版本配置文件"](../assets/images/int-portal-dlconfig2.png)
 
 ## 查看节点二维码
 
-#### 登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：
+登陆 [客户中心](https://portal.shadowsocks.center) ,执行下列操作：
 
 - 单击 “服务” > "我的服务" > 选择 "你可用的产品/服务"。
 - 查看你的节点信息 > 点击 ”二维码“ 图标，显示二维码。
 
-![单击 "服务" > "我的服务"](files/images/int-portal-myservices.png)  
+![单击 "服务" > "我的服务"](../assets/images/int-portal-myservices.png)  
 
-![选择 "你可用的产品/服务"](files/images/int-portal-servicespage.png)  
+![选择 "你可用的产品/服务"](../assets/images/int-portal-servicespage.png)  
 
-![点击 "二维码" 图标，显示二维码。 ](files/images/int-portal-qrcode.png)
+![点击 "二维码" 图标，显示二维码。 ](../assets/images/int-portal-qrcode.png)
 
 ## 使用教程请参考：  
-* [Windows 下安装配置 Shadowsocks 使用教程](2-windows-setup-guide-cn.md)
+- [Windows 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/windows-setup-guide.md)  
+- [macOS 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/macos-setup-guide.md)  
+- [iOS 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/ios-setup-guide.md)  
+- [Android 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/android-setup-guide.md)
+- [Linux 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/linux-setup-guide.md)
 
-* [macOS 下安装配置 Shadowsocks 使用教程](3-macos-setup-guide-cn.md)
-
-* [iOS 下安装配置 Shadowsocks 使用教程](4-ios-setup-guide-cn.md)
-
-* [Android 下安装配置 Shadowsocks 使用教程](5-android-setup-guide-cn.md)
-
-* [Linux 下安装配置 Shadowsocks 使用教程](6-linux-setup-guide-cn.md)
-
-* [Firefox 设置教程](7-1-firefox-setup-guide-cn.md)
-
-* [Chrome 设置教程](7-2-chrome-setup-guide-cn.md)
+- [Chrome 设置教程 (Proxy SwitchyOmega) ](../zh_CN/browser/chrome-setup-guide.md)
+- [Firefox Quantum 设置教程 (Proxy SwitchyOmega)](../zh_CN/browser/firefox-setup-guide.md)

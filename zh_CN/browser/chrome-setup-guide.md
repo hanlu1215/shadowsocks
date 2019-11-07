@@ -2,11 +2,9 @@
 
 **这里假设您已经配置好 Shadowsocks 客户端，具体请参考**
 
-* [Windows 下安装配置 Shadowsocks 使用教程](2-windows-setup-guide-cn.md)
-
-* [macOS 下安装配置 Shadowsocks 使用教程](3-macos-setup-guide-cn.md)
-
-* [Linux 下安装配置 Shadowsocks 使用教程](6-linux-setup-guide-cn.md)
+- [Windows 下安装配置 Shadowsocks 使用教程](../../zh_CN/shadowsocks/windows-setup-guide.md)
+- [macOS 下安装配置 Shadowsocks 使用教程](../../zh_CN/shadowsocks/macos-setup-guide.md)
+- [Linux 下安装配置 Shadowsocks 使用教程](../../zh_CN/shadowsocks/linux-setup-guide.md)
 
 ## 安装扩展
 
@@ -14,16 +12,16 @@
 
 * 单击“添加至 CHROME” >  单击 “扩展应用程序”。
 
- ![安装到chrome](files/images/bro-chromeinstall.png)
+ ![安装到chrome](../../assets/images/bro-chromeinstall.png)
 
 **如果无法访问**
 
-* <font color="#FF0000">Chrome / Chromium  72 以上版本无法直接拖放安装，手动安装方法请参考：[浏览器设置教程 - Chrome 手动安装 SwitchyOmega](7-3-chrome-install-proxyswitchyomega-offline-cn.md)﻿</font> 。  
+* <font color="#FF0000">Chrome / Chromium  72 以上版本无法直接拖放安装，手动安装方法请参考：[浏览器设置教程 - Chrome 手动安装 SwitchyOmega](7-3-chrome-install-proxyswitchyomega-offline-cn.md)</font> 。  
 
 * 其他 Chrome 核心浏览器可访问 chrome://extensions/，请使用 Chrome 浏览器复制粘贴输入地址栏并回车访问。
 * 在 [Github](https://github.com/FelisCatus/SwitchyOmega/releases) 下载 SwitchyOmega.crx 文件并拖移入`chrome://extensions/` 。
 
-![使用Guthub](files/images/bro-chrome-useGithub.png)
+![使用Guthub](../../assets/images/bro-chrome-useGithub.png)
 
 ## 扩展的配置
 
@@ -52,16 +50,14 @@
 
 > 本站提供的配置使用了 "GFWList", 可以使大部分无法直接访问的网站默认使用代理，推荐日常使用， 在下文中会包含 "自定义配置规则"。
 
- ![从备份文件中恢复](files/images/bro-switchyomega.png)
+ ![从备份文件中恢复](../../assets/images/bro-switchyomega.png)
 
 ## 自定义规则
 
 * 点击"自动切换模式" > "添加条件"。
 
->* 条件类型选择： "域名通配符"。
+* 条件类型选择： "域名通配符"。
+* 条件设置填写： "*.域名".
+* 情景模式： 选 "Shadowsocks" 则经过代理， 选 “直接连接” 则不经过代理。
 
->* 条件设置填写： "*.域名".
-
->* 情景模式： 选 "Shadowsocks" 则经过代理， 选 “直接连接” 则不经过代理。
-
-![自定义规则](files/images/bro-swocustomize.png)
+![自定义规则](../../assets/images/bro-swocustomize.png)
