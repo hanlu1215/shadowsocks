@@ -12,7 +12,9 @@ Clash for Windows 支持 Shadowsoks 协议以及 V2Ray 的 vmess 协议
     - [Clash 代理使用介绍](#clash-代理使用介绍)
       - [开启系统代理与开机启动](#开启系统代理与开机启动)
       - [Global 全局规则选项](#global-全局规则选项)
-    - [Chrome / Firefox 配合 SwitchOmega 扩展](#chrome--firefox-配合-switchomega-扩展)
+    - [Chrome / Firefox 配合 Proxy SwitchOmega 扩展](#chrome--firefox-配合-proxy-switchomega-扩展)
+      - [配置 Firefox 的代理](#配置-firefox-的代理)
+      - [配置 Chrome 的代理](#配置-chrome-的代理)
 
 ### 下载客户端   
 - 从本站 [资源下载](https://portal.shadowsocks.center/download/category/5/V2Ray-.html) 中下载： [Clash for Windows 点击下载](https://portal.shadowsocks.center/dl.php?type=d&id=85) | [ClashX(macOS) 点击下载](https://portal.shadowsocks.center/dl.php?type=d&id=84)  
@@ -99,8 +101,13 @@ Global 页面是设置 Clash 的全局规则，即设置 Clash 如何处理访�
 - 其他直接选中节点表示全部请求均通过代理，类似于 Shadowsocks 的全局模式   
 ![clash-set-proxy-07](../../assets/images/clash/clash-set-proxy-07.png)  
 
-### Chrome / Firefox 配合 SwitchOmega 扩展   
-Clash 提供的本地 socks5 端口为 7891，对应的 SwitchOmega 配置文件我们将在稍后提供并更新本教程。    
-如果您导入了本站提供针对 Shadowsocks 的扩展备份文件，建议先选择系统代理配合 Clash 使用。
+### Chrome / Firefox 配合 Proxy SwitchOmega 扩展
+#### 	配置 Firefox 的代理
 
-如果系统代理无法正常工作，请在扩展设置选项中将 Shadowsocks 模式的代理端口由 1080 修改为 Clash 对应的 7891 即可正常使用
+**如需使用 Firefox 浏览器	通过代理浏览网页，请参考下面链接：**  
+[Firefox + Proxy SwitchyOmega 设置](../../zh_CN/browser/firefox-setup-guide.md)
+
+#### 配置 Chrome 的代理
+
+**如需使用 Chrome 浏览器通过代理浏览网页，请参考下面链接：**  
+[Chrome + Proxy SwitchyOmega 设置](../../zh_CN/browser/chrome-setup-guide.md)

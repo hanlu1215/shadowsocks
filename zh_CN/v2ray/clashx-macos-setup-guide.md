@@ -15,7 +15,9 @@ ClashX 支持 Shadowsoks 协议以及 V2Ray 的 vmess 协议
   - [开启系统代理](#开启系统代理)
   - [通过延迟测试判断可用节点](#通过延迟测试判断可用节点)
   - [出站规则介绍](#出站规则介绍)
-  - [Chrome / Firefox 配合 SwitchOmega 扩展](#chrome--firefox-配合-switchomega-扩展)
+  - [Chrome / Firefox 配合 Proxy SwitchOmega 扩展](#chrome--firefox-配合-proxy-switchomega-扩展)
+      - [配置 Firefox 的代理](#配置-firefox-的代理)
+      - [配置 Chrome 的代理](#配置-chrome-的代理)
 
 ## 下载客户端
 - 从本站 [资源下载](https://portal.shadowsocks.center/download/category/5/V2Ray-.html) 中下载： [Clash for Windows 点击下载](https://portal.shadowsocks.center/dl.php?type=d&id=85) | [ClashX(macOS) 点击下载](https://portal.shadowsocks.center/dl.php?type=d&id=84)
@@ -107,8 +109,14 @@ ClashX 支持 Shadowsoks 协议以及 V2Ray 的 vmess 协议
 
 ![clashx-set-rule](../../assets/images/clash/clashx-set-rule.png)
 
-## Chrome / Firefox 配合 SwitchOmega 扩展
-ClashX 提供的本地 socks5 端口为 7891，对应的 SwitchOmega 配置文件我们将在之后提供并更新本教程。  
-如果您导入了本站提供针对 Shadowsocks 的扩展备份文件，建议先选择系统代理的情景模式配合 ClashX 使用。
+## Chrome / Firefox 配合 Proxy SwitchOmega 扩展
+#### 	配置 Firefox 的代理
 
-如果系统代理无法正常工作，请在扩展设置选项中将 Shadowsocks 模式的代理端口由 1080/1086 修改为 Clash 对应的 7891 即可正常使用  
+**如需使用 Firefox 浏览器	通过代理浏览网页，请参考下面链接：**  
+[Firefox + Proxy SwitchyOmega 设置](../../zh_CN/browser/firefox-setup-guide.md)
+
+#### 配置 Chrome 的代理
+
+**如需使用 Chrome 浏览器通过代理浏览网页，请参考下面链接：**  
+[Chrome + Proxy SwitchyOmega 设置](../../zh_CN/browser/chrome-setup-guide.md)
+

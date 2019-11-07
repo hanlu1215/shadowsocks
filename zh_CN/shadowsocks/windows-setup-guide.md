@@ -105,7 +105,7 @@
 ## 	配置 Firefox 的代理
 
 **如需使用 Firefox 浏览器	通过代理浏览网页，请参考下面链接：**  
-[Firefox上设置代理](../../zh_CN/browser/firefox-setup-guide.md)
+[Firefox + Proxy SwitchyOmega 设置](../../zh_CN/browser/firefox-setup-guide.md)
 
 
 ## 配置 Chrome 的代理

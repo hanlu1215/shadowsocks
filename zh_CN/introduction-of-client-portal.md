@@ -9,7 +9,7 @@
   - [查看节点信息](#查看节点信息)
   - [下载配置文件](#下载配置文件)
   - [查看节点二维码](#查看节点二维码)
-  - [使用教程请参考：](#使用教程请参考)
+  - [使用教程](#使用教程)
 
 
 ## 版本区别
@@ -109,12 +109,20 @@
 
 ![点击 "二维码" 图标，显示二维码。 ](../assets/images/int-portal-qrcode.png)
 
-## 使用教程请参考：  
+## 使用教程  
+**Shadowsocks:**  
 - [Windows 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/windows-setup-guide.md)  
 - [macOS 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/macos-setup-guide.md)  
 - [iOS 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/ios-setup-guide.md)  
 - [Android 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/android-setup-guide.md)
 - [Linux 下安装配置 Shadowsocks 使用教程](../zh_CN/shadowsocks/linux-setup-guide.md)
 
+**Shadowsocks & V2ray[Vmess]:**
+* [Windows 下 Clash for Windows 使用教程](../zh_CN/v2ray/clash-for-windows-setup-guide.md)
+* [Windows 下 V2rayN 使用教程](../zh_CN/v2ray/v2ray-win-v2rayN.md)
+* [macOS 下 ClashX 使用教程](../zh_CN/v2ray/clashx-macos-setup-guide.md)
+* [Android 下 V2rayNG 使用教程](../zh_CN/v2ray/v2ray-android-v2rayNG.md)
+
+**浏览器设置：**
 - [Chrome 设置教程 (Proxy SwitchyOmega) ](../zh_CN/browser/chrome-setup-guide.md)
 - [Firefox Quantum 设置教程 (Proxy SwitchyOmega)](../zh_CN/browser/firefox-setup-guide.md)

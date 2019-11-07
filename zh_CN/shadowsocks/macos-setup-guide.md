@@ -9,8 +9,9 @@
       - [扫码添加](#扫码添加)
   - [配置系统代理模式](#配置系统代理模式)
   - [注意事项](#注意事项)
-  - [配置 Firefox 的代理](#配置-firefox-的代理)
-  - [配置 Chrome 的代理](#配置-chrome-的代理)
+  - [Chrome / Firefox 配合 Proxy SwitchOmega 扩展](#chrome--firefox-配合-proxy-switchomega-扩展)
+    - [配置 Firefox 的代理](#配置-firefox-的代理)
+    - [配置 Chrome 的代理](#配置-chrome-的代理)
 
 
 ## 系统要求
@@ -84,13 +85,20 @@
 * **PAC 模式** 表示可以实现自动代理， 及本来可以访问的网站不会经过代理，推荐日常使用。
 * **全局模式** 表示计算机内大多数流量都会经过代理， 不推荐日常使用。
 
-## 	配置 Firefox 的代理
+## Chrome / Firefox 配合 Proxy SwitchOmega 扩展
+如需使用 Chrome / Firefox 配合 Proxy SwitchOmega 扩展使用，需将 shadowsocksX-NG `本地socks5监听端口` 由 1086 修改为 1080。  
+打开 ShadowsocksX-NG 的偏好设置，找到高级选项卡，进行修改。  
+其他端口不需要修改。  
+![pac设置](../../assets/images/mac-xng-1080.png)
+
+
+### 配置 Firefox 的代理
 
 **如需使用 Firefox 浏览器	通过代理浏览网页，请参考下面链接：**  
-[Firefox上设置代理](../../zh_CN/browser/firefox-setup-guide.md)
+[Firefox + Proxy SwitchyOmega 设置](../../zh_CN/browser/firefox-setup-guide.md)
 
 
-## 配置 Chrome 的代理
+### 配置 Chrome 的代理
 
 **如需使用 Chrome 浏览器通过代理浏览网页，请参考下面链接：**  
 [Chrome + Proxy SwitchyOmega 设置](../../zh_CN/browser/chrome-setup-guide.md)
