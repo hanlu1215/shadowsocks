@@ -14,6 +14,11 @@
 
 ## 3. V2ray(Vmess) 客户端设置教程
 
+- [Windows 下 Clash for Windows 使用教程](zh_CN/v2ray/clash-for-windows-setup-guide.md)
+- [Windows 下 V2rayN 使用教程](zh_CN/v2ray/v2ray-win-v2rayN.md)
+- [macOS 下 ClashX 使用教程](zh_CN/v2ray/clashx-macos-setup-guide.md)
+- [Android 下 V2rayNG 使用教程](zh_CN/v2ray/v2ray-android-v2rayNG.md)
+
 ## 4. 浏览器设置教程
 
 - [Chrome 设置教程 (Proxy SwitchyOmega) ](zh_CN/browser/chrome-setup-guide.md)
