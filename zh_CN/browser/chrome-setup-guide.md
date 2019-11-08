@@ -21,7 +21,7 @@
 **如果无法访问**
 
 <font color="#FF0000">Chrome / Chromium  72 以上版本无法直接拖放安装，手动安装方法请参考：</font>
-[浏览器设置教程 - Chrome 手动安装 SwitchyOmega](7-3-chrome-install-proxyswitchyomega-offline-cn.md)
+[浏览器设置教程 - Chrome 手动安装 SwitchyOmega](../../zh_CN/browser/chrome-install-proxyswitchyomega-offline.md)
 
 ## 扩展的配置
 
@@ -33,7 +33,7 @@
 
 * 点击 “Proxy SwitchyOmega” > "选项" > "导入/导出" > "从备份文件中恢复" 。
 * 选择刚才下载的配置文件 > "打开"。
-* 点击 "Switchyomega" 图标， 可以看到如下四个模式：
+* 点击 "Switchyomega" 图标， 可以看到如下几个模式：
 
 
 |连接方式|功能|
