@@ -26,7 +26,7 @@
 
 #### 1. 下载客户端
 
-可以前往 [客户中心](https://portal.shadowsocks.at/index.php?rp=/download/category/1/Shadowsocks-.html) 下载客户端  
+可以前往 [客户中心](https://order.shadowsocks.at/index.php?rp=/download/category/1/Shadowsocks-.html) 下载客户端  
 
 或是访问 Shadowsocks Windows 客户端 [下载页面](https://github.com/shadowsocks/shadowsocks-windows/releases)。
 下载最新版本的 `Shadowsocks-x.x.x.zip`  (`x.x.x`为版本号) 。
@@ -88,7 +88,7 @@
 ![更新 PAC](../../assets/images/win-update-pac.png)  <br />
 ![更新 PAC 成功](../../assets/images/win-update-pac-done.png)
 
-* 或是直接从本站下载 PAC 文件，请点击 [Pac文件下载](https://portal.shadowsocks.at/dl.php?type=d&id=14) 下载 pac 配置文件，将  `pac.txt` 文件与 `Shadowsocks.exe` 放在相同的文件目录下。  
+* 或是直接从本站下载 PAC 文件，请点击 [Pac文件下载](https://order.shadowsocks.at/dl.php?type=d&id=14) 下载 pac 配置文件，将  `pac.txt` 文件与 `Shadowsocks.exe` 放在相同的文件目录下。  
 ![下载 PAC](../../assets/images/win-pact.png)
 
 ## 注意事项
