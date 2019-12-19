@@ -20,14 +20,14 @@ ClashX 支持 Shadowsoks 协议以及 V2Ray 的 vmess 协议
       - [配置 Chrome 的代理](#配置-chrome-的代理)
 
 ## 下载客户端
-- 从本站 [资源下载](https://order.shadowsocks.at/download/category/5/V2Ray-.html) 中下载： [Clash for Windows 点击下载](https://order.shadowsocks.at/dl.php?type=d&id=85) | [ClashX(macOS) 点击下载](https://order.shadowsocks.at/dl.php?type=d&id=84)
+- 从本站 [资源下载](https://order.shadowsocks.nl/download/category/5/V2Ray-.html) 中下载： [Clash for Windows 点击下载](https://order.shadowsocks.nl/dl.php?type=d&id=85) | [ClashX(macOS) 点击下载](https://order.shadowsocks.nl/dl.php?type=d&id=84)
 - Clash for Windows: [Github](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 - ClashX (macOS): [Github](https://github.com/yichengchen/clashX/releases)
 
 ## 获取配置文件
 注：目前我们尚未提供订阅链接的支持，请直接下载配置文件使用  
 
-访问客户中心，依次点击 产品服务 > [我的产品与服务](https://order.shadowsocks.at/clientarea.php?action=services
+访问客户中心，依次点击 产品服务 > [我的产品与服务](https://order.shadowsocks.nl/clientarea.php?action=services
 ) 打开服务详情。  
 
 ![clashx-get-config-01](../../assets/images/clash/clashx-get-config-01.png)
