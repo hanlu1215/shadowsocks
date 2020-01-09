@@ -10,7 +10,7 @@
   - [四、其他说明](#四其他说明)
 
 ## 一、下载客户端 
-1. 通过 [客户中心](https://order.shadowsocks.nl/index.php?rp=/download/category/1/Shadowsocks-.html) 下载 APK 文件进行安装  
+1. 通过 [客户中心](https://portal.shadowsocks.nl/index.php?rp=/download/category/1/Shadowsocks-.html) 下载 APK 文件进行安装  
 2. 通过 [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 安装客户端  
 3. 通过 [Github](https://github.com/shadowsocks/shadowsocks-android/releases) 下载 APK 文件进行安装  
 
